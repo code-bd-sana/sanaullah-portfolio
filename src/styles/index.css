@@ -1,0 +1,18 @@
+ 
+
+@import "swiper/css/bundle";    
+@import 'react-18-image-lightbox/src/style.css';
+@import 'react-modal-video/css/modal-video.css';
+
+@import "../../public/assets/css/animate.min.css";
+@import "../../public/assets/css/blog.css";
+@import "../../public/assets/css/font-awesome-pro.css";
+@import "../../public/assets/css/mobilemenu.css";
+@import "../../public/assets/fonts/remixicon.css"; 
+
+/* @import "node_modules/bootstrap/dist/css/bootstrap"; */
+
+@import "../../public/assets/css/spacing.css";
+@import "../../public/assets/css/bootstrap.min.css";
+@import "../../public/assets/css/style.css";
+@import "../../public/assets/css/responsive.css"; 
