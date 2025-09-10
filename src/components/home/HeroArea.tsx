@@ -63,7 +63,7 @@ export default function HeroArea() {
             <div className="col-lg-6">
               <div className="hero-image">
                 <img
-                  src="https://i.ibb.co.com/tMN86FVM/photo-6197325409843006292-x.jpg"
+                  src="https://i.ibb.co.com/dwc8kS25/Untitled-22.png"
                   alt=""
                 />
               </div>
