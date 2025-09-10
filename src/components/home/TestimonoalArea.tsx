@@ -15,7 +15,7 @@ export default function TestimonoalArea() {
               <div className="testimonial-item wow fadeInUp delay-0-2s">
                 <div className="author">
                   <img
-                    src="assets/images/testimonials/author1.jpg"
+                    src="https://i.ibb.co.com/Y4hHRd7h/generate-a-realistic-ai-avatar-of-a-formal-man-in-fotor.webp"
                     alt="Author"
                   />
                 </div>
@@ -44,7 +44,7 @@ export default function TestimonoalArea() {
               <div className="testimonial-item wow fadeInUp delay-0-4s">
                 <div className="author">
                   <img
-                    src="assets/images/testimonials/author2.jpg"
+                    src="https://i.ibb.co.com/pvmhnThC/matheus-ferrero-W7b3e-DUb-2-I-unsplash.jpg"
                     alt="Author"
                   />
                 </div>
@@ -73,7 +73,7 @@ export default function TestimonoalArea() {
               <div className="testimonial-item wow fadeInUp delay-0-6s">
                 <div className="author">
                   <img
-                    src="assets/images/testimonials/author3.jpg"
+                    src="https://i.ibb.co.com/LzmkJ0w9/photo-1633332755192-727a05c4013d.jpg"
                     alt="Author"
                   />
                 </div>
@@ -102,7 +102,7 @@ export default function TestimonoalArea() {
               <div className="testimonial-item wow fadeInUp delay-0-8s">
                 <div className="author">
                   <img
-                    src="assets/images/testimonials/author4.jpg"
+                    src="https://i.ibb.co.com/vCTFbqPz/689f347e2a3cc7bfc1997f62-Ryan-5.jpg"
                     alt="Author"
                   />
                 </div>
@@ -131,7 +131,7 @@ export default function TestimonoalArea() {
               <div className="testimonial-item wow fadeInUp delay-0-9s">
                 <div className="author">
                   <img
-                    src="assets/images/testimonials/author5.jpg"
+                    src="https://i.ibb.co.com/7tKNkpmY/689f3a544742ab3a30baa51f-Michael-2.jpg"
                     alt="Author"
                   />
                 </div>

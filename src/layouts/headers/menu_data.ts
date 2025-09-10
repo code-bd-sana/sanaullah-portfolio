@@ -35,15 +35,15 @@ const menu_data: DataType[] = [
 		has_dropdown: true,
 		sub_menus: [
 			{ link: "/projects", title: "Projects List" },
-			{ link: "/single-project", title: "Single Portfolio" },
+			// { link: "/single-project", title: "Single Portfolio" },
 		],
 	},
-	{
-		id: 5,
-		title: "Blog",
-		link: "/blog",
-		has_dropdown: false,
-	},
+	// {
+	// 	id: 5,
+	// 	title: "Blog",
+	// 	link: "/blog",
+	// 	has_dropdown: false,
+	// },
 	{
 		id: 6,
 		title: "Contact",

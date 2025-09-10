@@ -1,63 +1,26 @@
- 
-
 export default function ResumeArea() {
   return (
     <>
       <div className="resume-area no-padding" id="resume">
         <div className="container">
-          <div className="row">
-            <div className="col-xl-6 col-md-6">
+          <div className="row justify-center">
+            <div className="col-xl-12 col-md-12">
               <div className="resume-wrapper wow fadeInUp delay-0-2s">
 
                 <div className="resume-box">
-                  <span className="resume-date">2020 - Present</span>
-                  <h2>Web Developer & Business Partner (Full-Time)</h2>
-                  <span>@ Envato Marketplace</span>
-                  <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-
-                <div className="resume-box">
-                  <span className="resume-date">2018 - 2020</span>
-                  <h2>CEO & Founder</h2>
-                  <span>@ Thememaster LTD</span>
-                  <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-
-                <div className="resume-box">
-                  <span className="resume-date">2012 - 2028</span>
-                  <h2>Senior Designer</h2>
-                  <span>@ Google</span>
-                  <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-              </div>
-            </div>
-            <div className="col-xl-6 col-md-6">
-              <div className="resume-wrapper wow fadeInUp delay-0-4s">
-
-                <div className="resume-box">
-                  <span className="resume-date">2020 - Present</span>
-                  <h2>Bachelor Degree of Science</h2>
-                  <span>@ University of London</span>
-                  <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-
-                <div className="resume-box">
-                  <span className="resume-date">2018 - 2020</span>
-                  <h2>Master Degree of Design</h2>
-                  <span>@ Envato Education</span>
-                  <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-
-                <div className="resume-box">
-                  <span className="resume-date">2015 - 2018</span>
-                  <h2>Degree Of UI & UX</h2>
-                  <span>@ University of world</span>
-                  <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <h2>MERN Stack Web Application Developer</h2>
+                  <p>
+                    I am a MERN Stack Web Application Developer dedicated to building seamless, high-quality websites and web applications that meet client expectations. With experience delivering nearly a hundred projects, I focus on clean, scalable, and user-friendly solutions while adhering to best coding practices.
+                  </p>
+                  <p>
+                    I specialize in modern technologies including <strong>MongoDB, Express.js, ReactJS, NextJS, Node.js, JavaScript, and Python</strong>. My approach involves understanding client requirements thoroughly, designing robust architecture, and implementing efficient solutions that perform well and are easy to maintain.
+                  </p>
+                  <p>
+                    I am passionate about staying updated with the latest industry trends, continuously improving my skills, and solving complex real-world problems. From front-end design to back-end functionality, I ensure every project is delivered with attention to detail, scalability, and a results-driven mindset.
+                  </p>
+                  <p>
+                    Beyond coding, I prioritize effective communication with clients, iterative feedback, and collaborative development to guarantee that the final product not only meets but exceeds expectations.
+                  </p>
                 </div>
 
               </div>
@@ -65,7 +28,6 @@ export default function ResumeArea() {
           </div>
         </div>
       </div>
-
     </>
   )
 }

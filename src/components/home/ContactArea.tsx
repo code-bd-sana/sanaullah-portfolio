@@ -1,19 +1,16 @@
- 
-import  { useState } from 'react'
+import { useState } from "react";
 
 export default function ContactArea() {
-
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
     // Add form submission logic here
-    console.log('Form submitted:', { name, email, subject, message });
+    console.log("Form submitted:", { name, email, subject, message });
   };
-
 
   return (
     <>
@@ -29,52 +26,82 @@ export default function ContactArea() {
           <div className="row">
             <div className="col-lg-4">
               <div className="contact-content-part  wow fadeInUp delay-0-2s">
-
-                <div className="single-contact wow fadeInUp" data-wow-delay=".2s">
+                <div
+                  className="single-contact wow fadeInUp"
+                  data-wow-delay=".2s"
+                >
                   <span className="circle-btn">
                     <i className="ri-map-pin-line"></i>
                   </span>
-                  <h2>our office:</h2>
-                  <p>Jurain,Dhaka Bangladesh</p>
+                  <h2>Location:</h2>
+                  <p>Dhaka Bangladesh</p>
                 </div>
 
-
-                <div className="single-contact wow fadeInUp" data-wow-delay=".4s">
+                <div
+                  className="single-contact wow fadeInUp"
+                  data-wow-delay=".4s"
+                >
                   <span className="circle-btn">
-                    <i className="ri-headphone-line"></i>
+                    <i className="ri-time-line"></i>
                   </span>
-                  <h2>contact number:</h2>
-                  <p>+1234321321</p>
+                  <h2>Working Hours:</h2>
+                  <p>24/7, All Days</p>
                 </div>
 
-
-                <div className="single-contact wow fadeInUp" data-wow-delay=".6s">
+                <div
+                  className="single-contact wow fadeInUp"
+                  data-wow-delay=".6s"
+                >
                   <span className="circle-btn">
                     <i className="ri-mail-line"></i>
                   </span>
                   <h2>Email us:</h2>
-                  <p>websitename@mail.com</p>
+                  <p> sanaullahshakil673@gmail.com</p>
                 </div>
 
-
-                <div className="single-contact wow fadeInUp" data-wow-delay=".6s">
+                <div
+                  className="single-contact wow fadeInUp"
+                  data-wow-delay=".6s"
+                >
                   <h2>Socials</h2>
                   <div className="about-social">
                     <ul>
-                      <li><a target='_blank' href="https://facebook.com"><i className="ri-facebook-circle-fill"></i></a></li>
-                      <li><a target='_blank' href="https://twitter.com"><i className="ri-twitter-x-line"></i></a></li>
-                      <li><a target='_blank' href="https://linkedin.com"><i className="ri-linkedin-fill"></i></a></li>
-                      <li><a target='_blank' href="https://github.com/jamilrayhan10"><i className="ri-github-line"></i></a></li>
+                      <li>
+                        <a target="_blank" href="https://facebook.com">
+                          <i className="ri-facebook-circle-fill"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a target="_blank" href="https://twitter.com">
+                          <i className="ri-twitter-x-line"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a target="_blank" href="https://linkedin.com">
+                          <i className="ri-linkedin-fill"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          href="https://github.com/jamilrayhan10"
+                        >
+                          <i className="ri-github-line"></i>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
-
               </div>
-            </div> 
+            </div>
 
             <div className="col-lg-8">
               <div className="contact-form contact-form-area wow fadeInUp delay-0-4s">
-                <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
+                <form
+                  id="contactForm"
+                  className="contact-form"
+                  onSubmit={handleSubmit}
+                >
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -89,7 +116,9 @@ export default function ContactArea() {
                           required
                           data-error="Please enter your Name"
                         />
-                        <label htmlFor="name" className="for-icon"><i className="far fa-user"></i></label>
+                        <label htmlFor="name" className="for-icon">
+                          <i className="far fa-user"></i>
+                        </label>
                         <div className="help-block with-errors"></div>
                       </div>
                     </div>
@@ -106,7 +135,9 @@ export default function ContactArea() {
                           required
                           data-error="Please enter your Email"
                         />
-                        <label htmlFor="email" className="for-icon"><i className="far fa-envelope"></i></label>
+                        <label htmlFor="email" className="for-icon">
+                          <i className="far fa-envelope"></i>
+                        </label>
                         <div className="help-block with-errors"></div>
                       </div>
                     </div>
@@ -123,7 +154,9 @@ export default function ContactArea() {
                           required
                           data-error="Please enter your Subject"
                         />
-                        <label htmlFor="subject" className="for-icon"><i className="far fa-user"></i></label>
+                        <label htmlFor="subject" className="for-icon">
+                          <i className="far fa-user"></i>
+                        </label>
                         <div className="help-block with-errors"></div>
                       </div>
                     </div>
@@ -153,18 +186,21 @@ export default function ContactArea() {
                       </div>
                     </div>
                     <div className="col-md-12 text-center">
-                      <p className="input-success">We have received your mail, We will get back to you soon!</p>
-                      <p className="input-error">Sorry, Message could not send! Please try again.</p>
+                      <p className="input-success">
+                        We have received your mail, We will get back to you
+                        soon!
+                      </p>
+                      <p className="input-error">
+                        Sorry, Message could not send! Please try again.
+                      </p>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-
           </div>
         </div>
       </section>
-
     </>
-  )
+  );
 }
