@@ -84,7 +84,7 @@ export default function ContactArea() {
                       <li>
                         <a
                           target="_blank"
-                          href="https://github.com/jamilrayhan10"
+                          href="https://github.com/code-bd-sana"
                         >
                           <i className="ri-github-line"></i>
                         </a>
