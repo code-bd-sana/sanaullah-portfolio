@@ -20,10 +20,10 @@ export default function HeroArea() {
                 <div className="clienti-reviews">
                   <ul className="clienti-profile">
                     <li>
-                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/NnL0GNjF/rsz-11matheus-ferrero-w7b3edub-2.jpg" alt="client" />
+                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/yB4yLfPj/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg" alt="client" />
                     </li>
                     <li>
-                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/XffNPFKx/rsz-1ian-dooley-d1upkifd04a-unsp.jpg" alt="client" />
+                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/pvmhnThC/matheus-ferrero-W7b3e-DUb-2-I-unsplash.jpg" alt="client" />
                     </li>
                     <li>
                       <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/LzHFvV2D/albert-dera-ILip77-Sbm-OE-unsplash.jpg" alt="client" />
