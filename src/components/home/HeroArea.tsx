@@ -38,7 +38,7 @@ export default function HeroArea() {
             </div>
             <div className="col-lg-6">
               <div className="hero-image">
-                <img src="https://i.ibb.co.com/N6Q8YFqh/photo-6197325409843006295-y.jpg" alt="" />
+                <img src="https://i.ibb.co.com/tMN86FVM/photo-6197325409843006292-x.jpg" alt="" />
               </div>
 
             </div>
