@@ -1,4 +1,4 @@
- 
+import { Link } from "react-scroll";
 export default function HeroArea() {
   return (
     <>
@@ -6,52 +6,90 @@ export default function HeroArea() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-
               <div className="hero-content wow fadeInUp text-center delay-0-2s">
                 <h2>Sanaullah Shakil</h2>
               </div>
-
             </div>
           </div>
           <div className="row">
             <div className="col-lg-3 pt-30">
-
               <div className="hero-content wow fadeInUp delay-0-2s">
                 <div className="clienti-reviews">
                   <ul className="clienti-profile">
                     <li>
-                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/yB4yLfPj/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg" alt="client" />
+                      <img
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          objectFit: "cover",
+                        }}
+                        className="img-fluid rounded-circle"
+                        src="https://i.ibb.co.com/yB4yLfPj/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg"
+                        alt="client"
+                      />
                     </li>
                     <li>
-                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/pvmhnThC/matheus-ferrero-W7b3e-DUb-2-I-unsplash.jpg" alt="client" />
+                      <img
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          objectFit: "cover",
+                        }}
+                        className="img-fluid rounded-circle"
+                        src="https://i.ibb.co.com/pvmhnThC/matheus-ferrero-W7b3e-DUb-2-I-unsplash.jpg"
+                        alt="client"
+                      />
                     </li>
                     <li>
-                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/LzHFvV2D/albert-dera-ILip77-Sbm-OE-unsplash.jpg" alt="client" />
+                      <img
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          objectFit: "cover",
+                        }}
+                        className="img-fluid rounded-circle"
+                        src="https://i.ibb.co.com/LzHFvV2D/albert-dera-ILip77-Sbm-OE-unsplash.jpg"
+                        alt="client"
+                      />
                     </li>
                   </ul>
-                  <div className="reviews">100+ reviews <span>(4.96 of 5)</span>
+                  <div className="reviews">
+                    100+ reviews <span>(4.96 of 5)</span>
                     <p>Five-star reviews from my esteemed clients.</p>
                   </div>
                 </div>
               </div>
-
             </div>
             <div className="col-lg-6">
               <div className="hero-image">
-                <img src="https://i.ibb.co.com/tMN86FVM/photo-6197325409843006292-x.jpg" alt="" />
+                <img
+                  src="https://i.ibb.co.com/tMN86FVM/photo-6197325409843006292-x.jpg"
+                  alt=""
+                />
               </div>
-
             </div>
             <div className="col-lg-3 pt-30">
               <div className="hero-content wow fadeInUp delay-0-4s">
-                <p>Hi, I’m Sanaullah Shakil, a passionate MERN Stack Web Application Developer dedicated to building seamless, high-quality websites with a strong focus on achieving complete client satisfaction.</p>
-                <a className="theme-btn" href="">Get In touch</a>
-              </div>
+                <p>
+                  Hi, I’m Sanaullah Shakil, a passionate MERN Stack Web
+                  Application Developer dedicated to building seamless,
+                  high-quality websites with a strong focus on achieving
+                  complete client satisfaction.
+                </p>
 
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={1000}
+                  className="theme-btn"
+                >
+                  Get In touch
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }

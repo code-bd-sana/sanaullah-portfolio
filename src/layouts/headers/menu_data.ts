@@ -31,10 +31,10 @@ const menu_data: DataType[] = [
 	{
 		id: 4,
 		title: "Projects",
-		link: "#",
-		has_dropdown: true,
+		link: "/projects",
+		has_dropdown: false,
 		sub_menus: [
-			{ link: "/projects", title: "Projects List" },
+			// { link: "/projects", title: "Projects List" },
 			// { link: "/single-project", title: "Single Portfolio" },
 		],
 	},
