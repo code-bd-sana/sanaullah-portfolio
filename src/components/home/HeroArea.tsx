@@ -26,7 +26,7 @@ export default function HeroArea() {
                       <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/XffNPFKx/rsz-1ian-dooley-d1upkifd04a-unsp.jpg" alt="client" />
                     </li>
                     <li>
-                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/wFpMCjDj/rsz-3albert-dera-ilip77sbmoe-uns.jpg" alt="client" />
+                      <img style={{width:"60px", height:"60px", objectFit:"cover"}} className="img-fluid rounded-circle" src="https://i.ibb.co.com/LzHFvV2D/albert-dera-ILip77-Sbm-OE-unsplash.jpg" alt="client" />
                     </li>
                   </ul>
                   <div className="reviews">100+ reviews <span>(4.96 of 5)</span>
@@ -38,7 +38,7 @@ export default function HeroArea() {
             </div>
             <div className="col-lg-6">
               <div className="hero-image">
-                <img src="https://i.ibb.co.com/LzHFvV2D/albert-dera-ILip77-Sbm-OE-unsplash.jpg" alt="" />
+                <img src="https://i.ibb.co.com/N6Q8YFqh/photo-6197325409843006295-y.jpg" alt="" />
               </div>
 
             </div>
